@@ -1,0 +1,368 @@
+/* GLOBAL */
+.title p:nth-child(1) {
+    color: #9f9e9e;
+    font-size: 0.88rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.title p:nth-child(3) {
+    font-size: 1.1rem;
+    color: #777777;
+    line-height: 28px;
+}
+
+.title h3 {
+    color: #3f3a64;
+    font-size: 2.2rem;
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+
+
+
+
+/* SOLUTIONS */
+
+#solutions {
+    background-color: white;
+}
+
+#solutions img {
+    border-radius: 10px;
+}
+
+#solutions .title p {
+    text-transform: uppercase;
+}
+
+#solutions .solutions__item .progress {
+    height: 5px;
+}
+
+#solutions .solutions__item {
+    position: relative;
+}
+
+#solutions .sol1 p {
+    width: 80%;
+}
+
+#solutions .sol1 .progress .progress-bar {
+    color: #10f0ee;
+    background-image: linear-gradient(to right, #285253, #10f0ee);
+}
+
+#solutions .solutions__item .progress .progress-bar::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    background-color: white;
+}
+
+#solutions .solutions__item .progress .progress-bar::before {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid;
+    width: 30px;
+    height: 30px;
+}
+
+#solutions .solutions__item p {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+#solutions .sol1 .progress .progress-bar::after {
+    right: 19%;
+}
+
+#solutions .sol1 .progress .progress-bar::before {
+    right: 22%;
+
+}
+
+#solutions .sol1 .progress .progress-bar::before,
+#solutions .sol1 .progress .progress-bar::after {
+    transform: translate(95%, 1%);
+}
+
+#solutions .sol2 p {
+    width: 95%;
+}
+
+#solutions .sol2 .progress .progress-bar {
+    color: #efaf7c;
+    background-image: linear-gradient(to right, #ea5b1d, #efaf7c);
+}
+
+#solutions .sol2 .progress .progress-bar::after {
+    right: 4%;
+}
+
+#solutions .sol2 .progress .progress-bar::before {
+    right: 7%;
+
+}
+
+#solutions .sol2 .progress .progress-bar::before,
+#solutions .sol2 .progress .progress-bar::after {
+    transform: translate(92%, 1%);
+}
+
+
+#solutions .sol3 p {
+    width: 60%;
+}
+
+#solutions .sol3 .progress .progress-bar {
+    color: #941dea;
+    background-image: linear-gradient(to right, #e737d6, #941dea);
+}
+
+#solutions .sol3 .progress .progress-bar::after {
+    right: 39%;
+}
+
+#solutions .sol3 .progress .progress-bar::before {
+    right: 42%;
+
+}
+
+#solutions .sol3 .progress .progress-bar::before,
+#solutions .sol3 .progress .progress-bar::after {
+    transform: translate(96%, 1%);
+}
+
+
+#solutions .sol4 p {
+    width: 85%;
+}
+
+#solutions .sol4 .progress .progress-bar {
+    color: #f3b38e;
+    background-image: linear-gradient(to right, #e80b40, #f3b38e);
+}
+
+#solutions .sol4 .progress .progress-bar::after {
+    right: 14%;
+}
+
+#solutions .sol4 .progress .progress-bar::before {
+    right: 17%;
+
+}
+
+#solutions .sol4 .progress .progress-bar::before,
+#solutions .sol4 .progress .progress-bar::after {
+    transform: translate(91%, 2%);
+}
+
+
+/* FEEDBACK */
+#feedback {
+    background-color: #f7f7f7;
+}
+
+#feedback .title p {
+    text-transform: uppercase;
+}
+
+#feedback .title {
+    text-align: center;
+}
+
+#feedback .feedback__item {
+    text-align: center;
+}
+
+#feedback .feedback__item .feedback__content {
+    margin: 0 100px;
+}
+
+#feedback .feedback__item .feedback__content p {
+    line-height: 1.8;
+    color: #666;
+}
+
+#search .search__search {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#search .search__search form {
+    max-width: 500px;
+    margin: 50px auto 0 auto;
+}
+
+#search .search__search form .form_search {
+    display: grid;
+    grid-template-columns: 50px 1fr auto;
+}
+
+#search .search__search form .form_search input {
+    padding: 15px;
+    border: 1px solid #93909057;
+    background-color: #c8c2c20a;
+    border-color: #93909057;
+    /* Đường line của input*/
+    outline: none;
+    width: 100%;
+    color: white;
+}
+
+#search .search__search form .form_search button {
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 0 10px 10px 0;
+    padding: 0 25px;
+}
+
+#search .search__search form .form_search i {
+    color: #939090;
+    font-size: 15px;
+    text-align: center;
+    height: 58px;
+    line-height: 58px;
+    border: 1px solid #93909057;
+    border-radius: 5px 0 0 5px;
+
+}
+
+#feedback .feedback__item .feedback__content .reviewers .reviewers__img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+
+#feedback .feedback__item .feedback__content .reviewers {
+    justify-content: center;
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 20px;
+    text-align: left;
+}
+
+
+
+
+#footer {
+    background-color: #0f0f0f;
+    color: white;
+    border-top: 1px solid #303030;
+
+}
+
+#footer a {
+    color: #848c90;
+    text-decoration: none;
+    transition: all 0.5s ease-out;
+}
+
+#footer a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+#footer .content .footer__logo {
+    display: flex;
+}
+
+
+#footer .content .footer__logo .text-height {
+    line-height: 0.3;
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+}
+
+.footer__logo .fa-solid,
+.fas {
+    font-weight: 900;
+}
+
+.footer__logo a,
+.footer__logo a:hover {
+    color: white !important;
+    text-decoration: none;
+}
+
+.footer__logo a i {
+    margin-right: 5px;
+    font-size: 25px;
+}
+
+.footer__logo a i:hover {
+    margin-right: 5px;
+    font-size: 25px;
+    color: #28a745;
+}
+
+
+#footer .content .footer__logo p span {
+    color: white;
+}
+
+#footer .content .footer__logo a p span {
+    padding-left: 17%;
+    color: #cac6c6;
+}
+
+#footer .content .footer__logo span {
+    font-size: 14px;
+}
+
+#footer .content .color_p p {
+    color: #848c90;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+
+#footer .content .logo_thum a {
+    margin-right: 20px;
+}
+
+.listStyle li {
+    list-style: none;
+    margin-bottom: 1rem;
+    color: #848c90;
+    transition: all 0.5s ease-out;
+}
+
+.listStyle li:hover {
+    color: white;
+}
+
+.CopyRight {
+    background-color: #0f0f0f;
+    border: 1px solid #303030;
+}
+
+.CopyRight.color_p p {
+    color: #848c90;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+.CopyRight a {
+    color: #0ca254;
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+}
+
+.CopyRight a:hover {
+    color: white;
+    text-decoration: none;
+}
